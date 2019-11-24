@@ -8,8 +8,9 @@ description: >-
 ingredients:
   - Baby back ribs with no seasoning
   - Dry rub (any type will do... look in the spice aisle)
-  - BBQ sauce (your preference; Maull’s sauce from St. Louis is good
-  - so is Sweet Baby Ray’s...
+  - >-
+    BBQ sauce (your preference; Maull’s sauce from St. Louis is good as is Sweet
+    Baby Ray’s
 tools:
   - Foil
   - Paper towel
