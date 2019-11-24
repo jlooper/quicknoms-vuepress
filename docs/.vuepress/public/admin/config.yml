@@ -12,4 +12,11 @@ collections:
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "markdown"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Ingredient1", name: "ingredient1", widget: "string"}
+      - {label: "Ingredient2", name: "ingredient2", widget: "string"}
+      - {label: "Ingredient3", name: "ingredient3", widget: "string"}
+      - {label: "Ingredient4", name: "ingredient4", widget: "string"}
+      - {label: "Ingredient5", name: "ingredient5", widget: "string"}
+      - {label: "Tools", name: "tools", widget: "string"}
+      - {label: "Method", name: "method", widget: "string"}

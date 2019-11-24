@@ -3,7 +3,33 @@
     <h1 class="text-3xl pb-5 pt-5 ml-5 text-sans">{{$page.frontmatter.title}}</h1>
 
     <div class="text-gray-800 p-5">
-      <Content/>
+      {{$page.frontmatter.description}}
+    </div>
+    <h2 class="text-gray-900 text-2xl p-5">
+     Ingredients
+    </h2>
+    <div class="text-gray-800 p-5">
+      <ul>
+        <li>• {{$page.frontmatter.ingredient1}}</li>
+        <li>• {{$page.frontmatter.ingredient2}}</li>
+        <li>• {{$page.frontmatter.ingredient3}}</li>
+        <li>• {{$page.frontmatter.ingredient4}}</li>
+        <li>• {{$page.frontmatter.ingredient5}}</li>
+      </ul>
+    </div>
+
+     <h2 class="text-gray-900 text-2xl p-5">
+     Tools
+    </h2>
+    <div class="text-gray-800 p-5">
+      {{$page.frontmatter.tools}}
+    </div>
+
+     <h2 class="text-gray-900 text-2xl p-5">
+     Method
+    </h2>
+    <div class="text-gray-800 p-5">
+      {{$page.frontmatter.method}}
     </div>
   </div>
 </template>
