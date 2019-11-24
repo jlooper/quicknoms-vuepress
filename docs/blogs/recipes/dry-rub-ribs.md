@@ -6,13 +6,15 @@ description: >-
   makes everything fall apart, and constant basting with BBQ sauce is a hassle.
   This is by far the easiest way!
 ingredients:
-  - Baby back ribs with no seasoning  Dry rub (any type will do
-  - >-
-    look in the spice aisle)  BBQ sauce (your preference. Maull’s sauce from St.
-    Louis is good
+  - Baby back ribs with no seasoning
+  - Dry rub (any type will do
+  - look in the spice aisle)
+  - BBQ sauce (your preference; Maull’s sauce from St. Louis is good
   - so is Sweet Baby Ray’s)
 tools:
-  - Foil  Paper towel  Pan for oven
+  - Foil
+  - Paper towel
+  - Pan for oven
 method: >-
   Over the sink, open the pack of baby back ribs and wash quickly.
 
