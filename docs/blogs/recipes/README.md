@@ -1,1 +1,6 @@
-# All Recipes
+---
+title: All Recipes
+layout: RecipesLayout
+---
+
+{{ description }}
