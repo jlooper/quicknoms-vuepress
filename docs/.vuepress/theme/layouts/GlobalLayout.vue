@@ -14,13 +14,15 @@ import Nav from "@theme/components/Nav.vue";
 import Footer from "@theme/components/Footer.vue";
 import HomeLayout from "@theme/layouts/HomeLayout.vue";
 import RecipesLayout from "@theme/layouts/RecipesLayout.vue";
+import RecipesListLayout from "@theme/layouts/RecipesListLayout.vue";
 
 export default {
   components: {
     Nav,
     Footer,
     HomeLayout,
-    RecipesLayout
+    RecipesLayout,
+    RecipesListLayout
   },
   computed: {
     layout() {

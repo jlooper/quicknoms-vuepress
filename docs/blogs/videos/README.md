@@ -1,1 +1,3 @@
-# Videos
+---
+title: Videos
+---

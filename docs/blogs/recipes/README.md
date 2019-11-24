@@ -1,6 +1,4 @@
 ---
 title: All Recipes
-layout: RecipesLayout
+layout: RecipesListLayout
 ---
-
-{{ description }}

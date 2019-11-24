@@ -1,5 +1,9 @@
 <template>
+  
+  
   <div class="markdown-body">
+
+    
     <h1 class="text-3xl pb-5 pt-5 ml-5 text-sans">{{$page.frontmatter.title}}</h1>
 
     <div class="text-gray-800 p-5">
@@ -15,7 +19,7 @@
      <h2 class="text-gray-900 text-2xl p-5">
      Tools
     </h2>
-    <div class="text-gray-800 p-5" v-for="ingredient in $page.frontmatter.tools">
+    <div class="text-gray-800 p-5" v-for="tools in $page.frontmatter.tools">
       {{tools}}
     </div>
 
@@ -29,6 +33,7 @@
 </template>
 
 <script>
+
 export default {
   name: "RecipesLayout"
 };

@@ -1,1 +1,3 @@
-# Submit A Recipe
+---
+title: Submit A Recipe
+---

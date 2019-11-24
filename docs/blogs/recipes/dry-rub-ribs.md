@@ -1,6 +1,9 @@
 ---
 title: Dry Rub Ribs
 layout: RecipesLayout
+type: recipe
+category: meat
+imagepath: /images/ribs.jpg
 description: >-
   There are many ways to cook baby back ribs. I found that using a crock pot
   makes everything fall apart, and constant basting with BBQ sauce is a hassle.

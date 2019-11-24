@@ -29,22 +29,22 @@
   
    <div class="flex content-start flex-wrap">
   <div class="w-1/3 p-2">
-    <div class="text-gray-700 text-center p-2"><img src="/images/meat.png"></div>
+    <div class="text-gray-700 text-center p-2"><img src="/portfolio/images/meat.png"></div>
   </div>
   <div class="w-1/3 p-2">
-    <div class="text-gray-700 text-center p-2"><img src="/images/soupssalads.png"></div>
+    <div class="text-gray-700 text-center p-2"><img src="/portfolio/images/soupssalads.png"></div>
   </div>
   <div class="w-1/3 p-2">
-    <div class="text-gray-700 text-center p-2"><img src="/images/vegetarian.png"></div>
+    <div class="text-gray-700 text-center p-2"><img src="/portfolio/images/vegetarian.png"></div>
   </div>
   <div class="w-1/3 p-2">
-    <div class="text-gray-700 text-center p-2"><img src="/images/snacks.png"></div>
+    <div class="text-gray-700 text-center p-2"><img src="/portfolio/images/snacks.png"></div>
   </div>
   <div class="w-1/3 p-2">
-    <div class="text-gray-700 text-center p-2"><img src="/images/desserts.png"></div>
+    <div class="text-gray-700 text-center p-2"><img src="/portfolio/images/desserts.png"></div>
   </div>
   <div class="w-1/3 p-2">
-    <div class="text-gray-700 text-center p-2"><img src="/images/extras.png"></div>
+    <div class="text-gray-700 text-center p-2"><img src="/portfolio/images/extras.png"></div>
   </div>
 </div>
 
