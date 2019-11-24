@@ -7,8 +7,7 @@ description: >-
   This is by far the easiest way!
 ingredients:
   - Baby back ribs with no seasoning
-  - Dry rub (any type will do
-  - look in the spice aisle)
+  - Dry rub (any type will do... look in the spice aisle)
   - BBQ sauce (your preference; Maull’s sauce from St. Louis is good
   - so is Sweet Baby Ray’s...
 tools:
