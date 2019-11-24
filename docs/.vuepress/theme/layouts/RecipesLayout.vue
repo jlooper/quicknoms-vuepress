@@ -8,15 +8,15 @@
     <h2 class="text-gray-900 text-2xl p-5">
      Ingredients
     </h2>
-     <div class="text-gray-800 p-5">
-      {{$page.frontmatter.ingredients}}
+     <div class="text-gray-800 p-5" v-for="ingredient in $page.frontmatter.ingredients">
+      {{ingredient}}
     </div>
 
      <h2 class="text-gray-900 text-2xl p-5">
      Tools
     </h2>
-    <div class="text-gray-800 p-5">
-      {{$page.frontmatter.tools}}
+    <div class="text-gray-800 p-5" v-for="ingredient in $page.frontmatter.tools">
+      {{tools}}
     </div>
 
      <h2 class="text-gray-900 text-2xl p-5">
