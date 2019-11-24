@@ -8,14 +8,8 @@
     <h2 class="text-gray-900 text-2xl p-5">
      Ingredients
     </h2>
-    <div class="text-gray-800 p-5">
-      <ul>
-        <li>• {{$page.frontmatter.ingredient1}}</li>
-        <li>• {{$page.frontmatter.ingredient2}}</li>
-        <li>• {{$page.frontmatter.ingredient3}}</li>
-        <li>• {{$page.frontmatter.ingredient4}}</li>
-        <li>• {{$page.frontmatter.ingredient5}}</li>
-      </ul>
+     <div class="text-gray-800 p-5">
+      {{$page.frontmatter.ingredients}}
     </div>
 
      <h2 class="text-gray-900 text-2xl p-5">
