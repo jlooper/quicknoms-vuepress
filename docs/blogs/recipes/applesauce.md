@@ -1,6 +1,7 @@
 ---
 title: Applesauce
 layout: RecipeLayout
+type: recipe
 imagepath: /images/apples-1.jpg
 description: >-
     It’s a New England tradition to go apple picking, but you wind up with a ton
