@@ -20,37 +20,37 @@
 
     <div class="flex content-start flex-wrap">
       <div class="w-full p-2 sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3">
-        <div class="mb-10 text-gray-700 text-center p-2">
+        <div class="mb-10 text-gray-700 text-center p-2" @click="goTo('/yum/recipes/meat.html')">
           <img src="/images/portfolio/meat.png" />
           <h2 class="-m-10 text-white">Meat</h2>
         </div>
       </div>
       <div class="mb-10 w-full p-2 sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3">
-        <div class="text-gray-700 text-center p-2">
+        <div class="text-gray-700 text-center p-2" @click="goTo('/yum/recipes/soupssalads.html')">
           <img src="/images/portfolio/soupssalads.png" />
           <h2 class="-m-10 text-white">Soups and Salads</h2>
         </div>
       </div>
       <div class="mb-10 w-full p-2 sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3">
-        <div class="text-gray-700 text-center p-2">
+        <div class="text-gray-700 text-center p-2" @click="goTo('/yum/recipes/vegetarian.html')">
           <img src="/images/portfolio/vegetarian.png" />
           <h2 class="-m-10 text-white">Vegetarian Dishes</h2>
         </div>
       </div>
       <div class="mb-10 w-full p-2 sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3">
-        <div class="text-gray-700 text-center p-2">
+        <div class="text-gray-700 text-center p-2" @click="goTo('/yum/recipes/snacks.html')">
           <img src="/images/portfolio/snacks.png" />
           <h2 class="-m-10 text-white">Snacks</h2>
         </div>
       </div>
       <div class="mb-10 w-full p-2 sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3">
-        <div class="text-gray-700 text-center p-2">
+        <div class="text-gray-700 text-center p-2" @click="goTo('/yum/recipes/desserts.html')">
           <img src="/images/portfolio/desserts.png" />
           <h2 class="-m-10 text-white">Desserts</h2>
         </div>
       </div>
       <div class="mb-10 w-full p-2 sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3">
-        <div class="text-gray-700 text-center p-2">
+        <div class="text-gray-700 text-center p-2" @click="goTo('/yum/recipes/extras.html')">
           <img src="/images/portfolio/extras.png" />
           <h2 class="-m-10 text-white">Everything Else</h2>
         </div>
@@ -61,6 +61,11 @@
 
 <script>
 export default {
-  name: "HomeLayout"
+  name: "HomeLayout",
+  methods: {
+    goTo(path) {
+      window.open(path);
+    }
+  }
 };
 </script>
