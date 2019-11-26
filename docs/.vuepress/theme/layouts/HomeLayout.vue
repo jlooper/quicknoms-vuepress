@@ -64,7 +64,7 @@ export default {
   name: "HomeLayout",
   methods: {
     goTo(path) {
-      window.open(path);
+      window.open(path, "_self");
     }
   }
 };
