@@ -1,12 +1,8 @@
 <template>
-<div class="wrapper">
-    <div
-      class="markdown-body font-serif text-lg rounded-lg shadow-lg"
-    >
-      <Nav/>
-      <component :is="layout"></component>
-      <Footer/>
-    </div>
+  <div class="markdown-body flex-grow font-serif text-lg rounded-lg shadow-lg">
+    <Nav />
+    <component :is="layout"></component>
+    <Footer />
   </div>
 </template>
 <script>
@@ -33,5 +29,5 @@ export default {
 </script>
 
 <style lang="stylus">
-  @import '../styles/style.styl';
+@import '../styles/style.styl';
 </style>

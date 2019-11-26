@@ -1,11 +1,7 @@
 <template>
-<div class="wrapper">
-    <div
-      class="markdown-body font-serif text-lg rounded-lg shadow-lg"
-    >
+  <div>
+    <div class="markdown-body font-serif text-lg rounded-lg shadow-lg">
       <RecipesList :list="$site.pages" />
-  
-     
     </div>
   </div>
 </template>
@@ -14,8 +10,7 @@ import RecipesList from "@theme/components/RecipesList.vue";
 
 export default {
   components: {
-    RecipesList  
+    RecipesList
   }
-  
 };
 </script>
