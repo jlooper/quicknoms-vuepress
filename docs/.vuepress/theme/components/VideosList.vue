@@ -7,11 +7,14 @@
         class="w-full p-2 sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3"
       >
         <div class="rounded h-full overflow-hidden shadow-lg">
-          <!--<img
-            class="h-48 rounded-tr rounded-tl w-full object-cover"
-            :src="item.frontmatter.imagepath"
-            :alt="item.frontmatter.title"
-          />-->
+          <iframe
+            id="video"
+            class="video"
+            :src="item.frontmatter.embedurl"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">{{ item.frontmatter.title }}</div>
           </div>
@@ -36,13 +39,8 @@ export default {
       if (props) {
         if (props.list && props.list.length > 0) {
           return props.list.filter(item => {
-            const isRecipe = item.frontmatter.type == "video";
-            const category = this.$page.frontmatter.category;
-            console.log(category);
-            if (
-              isRecipe &&
-              (category == "all" || category == item.frontmatter.category)
-            ) {
+            const isVideo = item.frontmatter.type == "video";
+            if (isVideo) {
               return item;
             }
           });
