@@ -12,10 +12,10 @@ collections:
       slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
       fields: # The fields for each document, usually in front matter
           - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Type', name: 'type', widget: 'string' }
+          - { label: 'Type', name: 'type', default: 'recipe', widget: 'string' }
           - { label: 'Category', name: 'category', widget: 'string' }
           - { label: 'ImagePath', name: 'imagepath', widget: 'string' }
-          - { label: 'Layout', name: 'layout', widget: 'string' }
+          - { label: 'Layout', name: 'layout', default: 'RecipeLayout', widget: 'string' }
           - { label: 'Description', name: 'description', widget: 'text' }
           - { label: 'Ingredients', name: 'ingredients', widget: 'list' }
           - { label: 'Tools', required: false, name: 'tools', widget: 'list' }
@@ -27,7 +27,6 @@ collections:
       slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
       fields: # The fields for each document, usually in front matter
           - { label: 'Title', name: 'title', widget: 'string' }
-          - { label: 'Type', name: 'type', widget: 'string' }
-          - { label: 'Category', name: 'category', widget: 'string' }
+          - { label: 'Type', name: 'type', default: 'video', widget: 'string' }
           - { label: 'EmbedUrl', name: 'embedurl', widget: 'string' }
-          - { label: 'Layout', name: 'layout', widget: 'string' }
+          - { label: 'Layout', name: 'layout', default: 'VideoLayout', widget: 'string' }
