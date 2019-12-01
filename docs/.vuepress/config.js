@@ -10,7 +10,7 @@ module.exports = {
 		search: false,
 		lastUpdated: 'Last Updated',
 		nav: [
-			{ text: 'All Recipes', link: '/yum/recipes/' },
+			{ text: 'All Recipes', link: '/yum/' },
 			{ text: 'Videos', link: '/yum/videos/' },
 			{ text: 'Submit A Recipe', link: '/yum/submit/' },
 		],
