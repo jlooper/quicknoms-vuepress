@@ -22,7 +22,7 @@ collections:
           - { label: 'Method', required: false, name: 'method', widget: 'markdown' }
     - name: 'videos' # Used in routes, e.g., /admin/collections/blog
       label: 'Videos' # Used in the UI
-      folder: 'docs/yum/videos' # The path to the folder where the documents are stored
+      folder: 'docs/videos' # The path to the folder where the documents are stored
       create: true # Allow users to create new documents in this collection
       slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
       fields: # The fields for each document, usually in front matter

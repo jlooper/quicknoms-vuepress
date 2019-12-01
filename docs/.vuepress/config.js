@@ -11,8 +11,8 @@ module.exports = {
 		lastUpdated: 'Last Updated',
 		nav: [
 			{ text: 'All Recipes', link: '/yum/' },
-			{ text: 'Videos', link: '/yum/videos/' },
-			{ text: 'Submit A Recipe', link: '/yum/submit/' },
+			{ text: 'Videos', link: '/videos/' },
+			{ text: 'Submit A Recipe', link: '/submit/' },
 		],
 	},
 };
