@@ -1,5 +1,5 @@
 ---
 title: Everything Else
-category: extras
+category: everythingelse
 layout: RecipesListLayout
 ---
