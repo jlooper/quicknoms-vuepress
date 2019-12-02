@@ -1,6 +1,6 @@
 <template>
   <div class="p-5 min-h-screen">
-    <h1 class="text-center text-3xl pb-5 pt-5 ml-5 text-sans">{{ $page.title }}</h1>
+    <h1 class="text-center text-3xl pb-5 pt-5 ml-5 text-sans uppercase">{{ $page.title }}</h1>
     <div class="flex content-between flex-wrap">
       <div
         v-for="(item, index) in filteredList"
