@@ -1,5 +1,5 @@
 ---
 title: Dessert Recipes
-category: dessert
+category: desserts
 layout: RecipesListLayout
 ---
