@@ -2,6 +2,7 @@
 title: Dry Rub Ribs
 layout: RecipesLayout
 type: recipe
+path: dry-rub-ribs
 category: meat
 imagepath: /images/ribs.jpg
 description: >-

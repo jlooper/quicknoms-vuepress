@@ -1,6 +1,7 @@
 ---
 title: Rice
 type: recipe
+path: rice
 category: everythingelse
 imagepath: /images/rice.jpg
 layout: RecipeLayout

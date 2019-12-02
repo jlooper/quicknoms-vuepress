@@ -1,6 +1,7 @@
 ---
 title: Any Pie
 type: recipe
+path: any-pie
 category: desserts
 imagepath: /images/any-pie.png
 layout: RecipeLayout

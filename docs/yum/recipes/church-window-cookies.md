@@ -1,6 +1,7 @@
 ---
 title: CHURCH-WINDOW COOKIES
 type: recipe
+path: church-window-cookies
 category: desserts
 imagepath: /images/church-window-cookies.png
 layout: RecipeLayout

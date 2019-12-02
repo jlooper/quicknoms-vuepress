@@ -1,6 +1,7 @@
 ---
 title: MAPLE SYRUP CANDY
 type: recipe
+path: maple-syrup-candy
 category: desserts
 imagepath: /images/maple-candy.jpg
 layout: RecipeLayout

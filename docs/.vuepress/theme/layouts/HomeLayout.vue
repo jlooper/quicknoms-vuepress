@@ -16,6 +16,15 @@
       <h2 class="text-white">5 ingredients. 15 minutes. Minimal setup. Recipes for all!</h2>
     </div>
 
+    <div class="bg-red-900 p-5 mt-5 text-center">
+      <h2 class="text-white text-2xl p-2">About QuickNoms</h2>
+      <div>
+        <p
+          class="text-white"
+        >Tired of the Food Network and their insanely complex recipes? Are you a student or new graduate looking for simple, inexpensive, easy to make, fast recipes? You've come to the right place! QuickNoms has curated recipes from our community of kitchen ninjas. Just have a frying pan and some eggs? Let's see what we can make quickly and easily, on a budget!</p>
+      </div>
+    </div>
+
     <div class="flex content-start flex-wrap">
       <div
         class="w-full p-2 sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3 cursor-pointer"

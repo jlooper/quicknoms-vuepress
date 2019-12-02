@@ -1,5 +1,6 @@
 ---
 title: Allegra's Guacamole
+path: allegras-guacamole
 type: recipe
 category: snacks
 imagepath: /images/guacamole.jpg

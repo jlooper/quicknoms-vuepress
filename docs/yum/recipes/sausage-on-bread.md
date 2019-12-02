@@ -1,33 +1,33 @@
 ---
 title: SAUSAGE ON BREAD
 type: recipe
+path: sausage-on-bread
 category: meat
 imagepath: /images/sausage-bread.jpg
 layout: RecipeLayout
 description: An Aussie Classic.
 ingredients:
-  - Sliced Bread
-  - Sausages
-  - Onion
-  - Sauce
-  - Oil
+    - Sliced Bread
+    - Sausages
+    - Onion
+    - Sauce
+    - Oil
 tools:
-  - Hot pan or bbq
-  - spatula or tongs
+    - Hot pan or bbq
+    - spatula or tongs
 method: >-
-  Prepare onion by slicing into 1/4 in pieces.
+    Prepare onion by slicing into 1/4 in pieces.
 
-  Preheat fry pan or BBQ and add a lick of oil.
-
-
-  BBQ or pan fry sausages until a dark brown crispy colour on most of the
-  sausage.
-
-  at the same time BBQ onion until golden brown.
+    Preheat fry pan or BBQ and add a lick of oil.
 
 
-  Place onion and sausage and bread with sauce.
+    BBQ or pan fry sausages until a dark brown crispy colour on most of the
+    sausage.
 
-  Eat.
+    at the same time BBQ onion until golden brown.
+
+
+    Place onion and sausage and bread with sauce.
+
+    Eat.
 ---
-

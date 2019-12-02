@@ -5,6 +5,7 @@
       <div
         v-for="(item, index) in filteredList"
         class="w-full p-2 sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/3"
+        @click="goTo(item.frontmatter.path)"
       >
         <div class="rounded h-full overflow-hidden shadow-lg">
           <img
@@ -49,6 +50,11 @@ export default {
           });
         }
       }
+    }
+  },
+  methods: {
+    goTo(path) {
+      window.open("/yum/recipes/" + path + ".html", "_self");
     }
   }
 };

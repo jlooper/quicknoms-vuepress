@@ -1,6 +1,7 @@
 ---
 title: BARBECUE BEEF
 type: recipe
+path: barbecue-beef
 category: meat
 imagepath: /images/bbq.png
 layout: RecipeLayout
